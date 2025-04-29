@@ -1,0 +1,65 @@
+/* ============================
+   🌈 Customizations for Bonofix
+   Author: dropaLou + ChatGPT :)
+   ============================ */
+
+/* === ✅ FONT: Modern system font stack === */
+/*
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+*/
+
+/* === 🏷️ TAG STYLE === */
+/*
+a.tag {
+    background-color: #F1F8E9;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+*/
+
+/* === 🎨 HEADING COLORS (pastel hierarchy) === */
+/* These override Bonofix's neutral headers — includes internal links */
+h1, h2, h3, h4, h5, h6 {
+    padding: 6px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1        { background-color: #FFF9C4; color: #333; }
+h2        { background-color: #FFE0B2; color: #333; }
+h3        { background-color: #BBDEFB; color: #333; }
+h4        { background-color: #C8E6C9; color: #333; }
+h5        { background-color: #E1BEE7; color: #333; }
+h6        { background-color: #F8BBD0; color: #333; }
+
+h1 a.page-ref,
+h2 a.page-ref,
+h3 a.page-ref,
+h4 a.page-ref,
+h5 a.page-ref,
+h6 a.page-ref {
+    color: inherit !important;
+    text-decoration: none;
+}
+
+/* Optional hover effect */
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+    background-color: #FFECB3;
+}
+
+/* === ✍️ STYLING: Italics + Bold override for Bonofix === */
+/*
+.block-content em {
+    color: #FFC300 !important;
+    font-style: italic;
+}
+
+.block-content strong {
+    color: #900C3F !important;
+    font-weight: bold;
+}
+*/
