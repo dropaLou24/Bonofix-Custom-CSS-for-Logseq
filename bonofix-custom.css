@@ -1,6 +1,7 @@
+
 /* ============================
    🌈 Customizations for Bonofix
-   Author: dropaLou + ChatGPT :)
+   Author: You + ChatGPT :)
    ============================ */
 
 /* === ✅ FONT: Modern system font stack === */
@@ -52,14 +53,15 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
 }
 
 /* === ✍️ STYLING: Italics + Bold override for Bonofix === */
-/*
-.block-content em {
+/* Italics */
+.block-content em, i {
     color: #FFC300 !important;
     font-style: italic;
 }
 
+/* Bold */
+.block-content b,
 .block-content strong {
     color: #900C3F !important;
     font-weight: bold;
 }
-*/
