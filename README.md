@@ -1,4 +1,4 @@
-# ✨ Bonofix Custom CSS for Logseq
+# ✨ Custom CSS for Logseq
 
 This is a personalized CSS add-on for the [Bonofix](https://github.com/Bono-BF/logseq-bonofix-theme) theme in [Logseq](https://logseq.com).  
 It introduces soft pastel header colors, improved tag styling, custom fonts, and optional bold/italic enhancements — all organized and easy to toggle.
